@@ -1,0 +1,13 @@
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <div class="container-fluid">
+    <a class="navbar-brand">CRUD App</a>
+
+    <div class="navbar-nav">
+      <a class="nav-link" routerLink="/curd">Create Curd</a>
+      <a class="nav-link" routerLink="/curd-list">Curd List</a>
+      <button class="btn btn-danger ms-3" (click)="logout()">Logout</button>
+    </div>
+  </div>
+</nav>
+
+<router-outlet></router-outlet>

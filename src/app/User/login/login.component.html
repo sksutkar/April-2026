@@ -1,0 +1,11 @@
+<form [formGroup]="LoginUserForm"(submit)="loginForm()">
+    <h3> Login Form</h3>
+    <input type="email" placeholder="Email" formControlName="user_email"><br><br>
+
+    <input type="password" placeholder="Password" formControlName="password"><br><br>
+
+  <button type="submit">Login</button>
+<br>
+<button type="button" routerLink="/signup">Sign Up</button>
+
+</form>

@@ -1,0 +1,13 @@
+{
+  "login": [
+    {
+      "id": "95af",
+      "user": "asdfgh",
+      "user_email": "swapnilsutkar@gmail.com",
+      "mobile": "7894561230",
+      "password": "asdfghjk"
+    }
+  ],
+  "users": [],
+  "$schema": "./node_modules/json-server/schema.json"
+}

@@ -1,0 +1,17 @@
+.navbar {
+    padding: 12px;
+}
+
+.nav-link {
+    color: white !important;
+    font-weight: 500;
+    margin-right: 10px;
+}
+
+.nav-link:hover {
+    color: #ffc107 !important;
+}
+
+button {
+    padding: 6px 12px;
+}
