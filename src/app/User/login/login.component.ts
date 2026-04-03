@@ -20,6 +20,10 @@ export class LoginComponent implements OnInit {
 
   ngOnInit(): void {
 
+
+     if (localStorage.getItem('login')) {
+      this.router.navigate(['/crud']);
+    }
    
     this.LoginUserForm = this._fb.group({
       user_email: ['', [Validators.required, Validators.email]],
@@ -44,8 +48,8 @@ export class LoginComponent implements OnInit {
       if (res.length > 0) {
         alert("Login successfully..");
         localStorage.setItem("login", JSON.stringify(res[0]));
-        // this.router.navigate(['/curd']);
-        this.router.navigate(['']);   // ✅ correct route
+        this.router.navigate(['/curd']);
+        // this.router.navigate(['']);   // ✅ correct route
       } else {
         alert("Invalid Email or Password");
       }

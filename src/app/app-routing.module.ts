@@ -17,11 +17,11 @@ const routes: Routes = [
     canActivate: [AuthGuard],
     children: [
       { path: 'curd', component: CurdComponent },
+      { path: 'curd/:id', component: CurdComponent },
       { path: 'curd-list', component: CurdListComponent },
-      // { path: '', redirectTo: 'curd', pathMatch: 'full' }
     ]
   },
-
+  { path: '', redirectTo: 'login', pathMatch: 'full' },
   { path: '**', redirectTo: 'login' }
 ];
 

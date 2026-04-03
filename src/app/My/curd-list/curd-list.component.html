@@ -1,1 +1,39 @@
-<p>curd-list works!</p>
+<div class="table-container">
+
+    <!-- <button class="add-btn" routerLink="/curd">
+        Add User
+    </button> -->
+
+    <table class="user-table">
+
+        <thead>
+            <tr>
+                <th>Action</th>
+                <th>Sr.No</th>
+                <th>User Name</th>
+                <th>Gender</th>
+                <th>Phone</th>
+                <th>Email</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr *ngFor="let item of userList; let i=index">
+
+                <td>
+                    <button [routerLink]="['/curd',item.id]" class="btn-edit">Edit</button>&nbsp;
+                    <button (click)="deleteUser(item.id)" class="btn-delete">Delete</button>
+                </td>
+
+                <td>{{i+1}}</td>
+                <td>{{item.userName}}</td>
+                <td>{{item.gender}}</td>
+                <td>{{item.phoneNo}}</td>
+                <td>{{item.email}}</td>
+
+            </tr>
+        </tbody>
+
+    </table>
+
+</div>

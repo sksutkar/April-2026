@@ -8,6 +8,70 @@
       "password": "asdfghjk"
     }
   ],
-  "users": [],
+  "users": [
+    {
+      "userName": "swapnil",
+      "gender": "male",
+      "phoneNo": "7894561230",
+      "email": "swapnilsutkar78@gmail.com",
+      "id": "ac48"
+    },
+    {
+      "userName": "vishal sutkar",
+      "gender": "male",
+      "phoneNo": "0123456789",
+      "email": "swapnil@gmail.com",
+      "id": "f8ea"
+    },
+    {
+      "userName": "qwerty",
+      "gender": "male",
+      "phoneNo": "7894561230",
+      "email": "sutkar@gmail.com",
+      "id": "83b1"
+    },
+    {
+      "userName": "dhjsdasj",
+      "gender": "male",
+      "phoneNo": "7894561230",
+      "email": "swapnilsutkar73@gmail.com",
+      "id": "829c"
+    },
+    {
+      "id": "62fd",
+      "userName": "kldlkdldl",
+      "gender": "male",
+      "phoneNo": "6864899444",
+      "email": "swapnilsutkar7123@gmail.com"
+    },
+    {
+      "userName": "klfdfks",
+      "gender": "male",
+      "phoneNo": "0321654789",
+      "email": "swapnilsutkar73@gmail.com",
+      "id": "59f8"
+    },
+    {
+      "id": "147e",
+      "userName": "isdhshdj",
+      "gender": "male",
+      "phoneNo": "7894561230",
+      "email": "swapnilsutkar7@gmail.com"
+    },
+    {
+      "id": "cb9c",
+      "userName": "gghg",
+      "gender": "male",
+      "phoneNo": "7894561230",
+      "email": "swapnil@gmail.com"
+    },
+    {
+      "id": "72c0",
+      "userName": "lkll",
+      "gender": "male",
+      "phoneNo": "7777777777",
+      "email": "swapnilsutkar7123@gmail.com"
+    }
+  ],
   "$schema": "./node_modules/json-server/schema.json"
 }
